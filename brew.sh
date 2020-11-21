@@ -66,7 +66,6 @@ brew install pv
 brew install rename
 brew install rlwrap
 brew install ssh-copy-id
->>>>>>> upstream/main
 brew install tree
 brew install nmap
 brew install mtr
