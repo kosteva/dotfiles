@@ -22,7 +22,7 @@ brew install moreutils
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed --with-default-names
-# Install Bash 4.
+# Install a modern version of Bash.
 brew install bash
 brew install bash-completion2
 
@@ -37,15 +37,36 @@ brew install wget --with-iri
 
 # Install more recent versions of some macOS tools.
 brew install vim --with-override-system-vi
-brew install homebrew/dupes/grep
-brew install homebrew/dupes/openssh
-brew install homebrew/dupes/screen
+brew install grep
+brew install openssh
+brew install screen
+brew install php
+brew install gmp
+
+# Install font tools.
+brew tap bramstein/webfonttools
+brew install sfnt2woff
+brew install sfnt2woff-zopfli
+brew install woff2
+
+
 
 # Install other useful binaries.
 brew install the_silver_searcher
 brew install dark-mode
 brew install git
 brew install git-lfs
+brew install gs
+brew install imagemagick --with-webp
+brew install lua
+brew install lynx
+brew install p7zip
+brew install pigz
+brew install pv
+brew install rename
+brew install rlwrap
+brew install ssh-copy-id
+>>>>>>> upstream/main
 brew install tree
 brew install nmap
 brew install mtr
